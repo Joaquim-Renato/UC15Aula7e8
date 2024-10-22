@@ -65,9 +65,10 @@ div{
 
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 colunas de tamanho igual */
-    grid-template-rows: 200px 100px 150px; /* 3 linhas com alturas diferentes */
-    gap: 10px; /* espaçamento entre os elementos */
+    grid-auto-flow: row; /* Os itens vão preencher as colunas primeiro e depois seguir para a próxima linha */
+    gap: 10px; /* Espaçamento entre os itens */
     padding: 10px;
+    width: 100%;
 }
 
 div{
@@ -85,6 +86,7 @@ div{
 .uva{
    
     background-color: #800080;
+    
 
 }
 
