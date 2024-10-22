@@ -5,6 +5,7 @@
     display: grid;
     grid-template-columns: repeat(3, 300px);
     justify-content: center;
+    
 }
  
 div{
