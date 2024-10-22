@@ -21,7 +21,8 @@ div{
  
 }
  
-.blue{background-image: url("/img/img-2.jfif");
+.blue{
+    background-image: url("/img/img-2.jfif");
     background-color: blue;
 }
  
@@ -60,4 +61,59 @@ div{
     background-color: orange;
 }
  
- 
+.container.test{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas de tamanho igual */
+    grid-template-rows: 200px 100px 150px; /* 3 linhas com alturas diferentes */
+    gap: 10px; /* espaçamento entre os elementos */
+    padding: 10px;
+}
+
+div{
+    width: 300px;
+    height: 150px;
+
+}
+.abacate{ 
+    background-color: #77dd77;
+    grid-column-start: 1;
+    background-repeat: no-repeat;
+
+}
+
+.uva{
+   
+    background-color: #800080;
+
+}
+
+.morango{ 
+    background-color: #Fb83a6;
+}
+
+
+.banana{
+    background-color: #FFD700;
+}
+
+.acerola{  background-color: orangered;
+
+}
+
+.abacaxi{  background-color: #FFFF00;
+
+}
+
+.cereja{  background-color: #FF0000;
+
+}
+
+.maca{ background-color: #84f100;
+
+}
+
+.pera{ background-color: #7CFC00;
+
+}
+

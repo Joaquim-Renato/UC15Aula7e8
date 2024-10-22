@@ -32,4 +32,30 @@ grade são chamadas de linhas – *rows*
 **row-gap: 10px ;** ajusta distância entre linhas -> 
 
 **column-gap: 10px** ; ajusta distância entre colunas
+---
+
+# Layout de Grid com CSS
+
+Este projeto demonstra o uso do layout `grid` no CSS para criar uma página web com três colunas e três linhas, com alturas e espaçamentos personalizados.
+
+## Estrutura do CSS
+
+Abaixo está uma explicação de cada linha do código CSS utilizado:
+
+```css
+/* Define o container como um grid */
+display: grid;
+
+/* Cria 3 colunas de largura igual usando a fração do espaço disponível (1fr) */
+grid-template-columns: repeat(3, 1fr);
+
+/* Define 3 linhas com alturas específicas: 200px, 100px, e 150px */
+grid-template-rows: 200px 100px 150px;
+
+/* Define um espaçamento de 10px entre as colunas e as linhas do grid */
+gap: 10px;
+
+/* Adiciona um preenchimento interno de 10px ao redor do container */
+padding: 10px;
+
 
