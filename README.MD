@@ -105,3 +105,13 @@ Neste exemplo:
 ### Joguinho massa para ajudar na fixação de conhecimento :
 
 https://cssgridgarden.com/
+
+---
+
+### Explicação
+
+- **Container Principal**: Organiza a navbar com flexbox.
+- **Navbar**: Flexível, ocupando toda a largura da tela com fundo em degradê.
+- **Links**: Definidos como quadrados, com texto centralizado e transição suave ao passar o mouse.
+- **Cores**: Classes específicas para cores dos quadrados.
+
