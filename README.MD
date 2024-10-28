@@ -101,3 +101,7 @@ Neste exemplo:
 ### Vantagens do RGBA
 - **Transparência**: Permite criar efeitos de sobreposição, possibilitando que as cores de fundo ou os elementos abaixo sejam vistos através da cor especificada.
 - **Flexibilidade**: Você pode criar uma ampla gama de efeitos visuais ajustando a opacidade da cor.
+---
+### Joguinho massa para ajudar na fixação de conhecimento :
+
+https://cssgridgarden.com/
