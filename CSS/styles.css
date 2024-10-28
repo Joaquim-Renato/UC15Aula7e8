@@ -1,121 +1,174 @@
-.container{
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-    display: grid;
-    grid-template-columns: repeat(3, 300px);
-    justify-content: center;
-    
-}
- 
-div{
-    width: 300px;
-    height: 150px;
-}
- 
-.red{
-    background-image: url("/img/img-1.jfif");
-    background-color: red;
-    grid-column-start: 1;
-    background-repeat: no-repeat;
+.container-nav {
+  display: flex;
+  align-items: flex-start;
  
 }
- 
-.blue{
-    background-image: url("/img/img-2.jfif");
-    background-color: blue;
-}
- 
-.green{
-    background-image: url("/img/img-3.jfif");
-    background-color: green;
-}
- 
-.yellow{
-    background-image: url("/img/img-4.jfif");
-    background-color: yellow;
-}
- 
-.pink{
-    background-image: url("/img/img-5.jfif");
-    background-color: pink;
-}
- 
-.brown{
-    background-image: url("/img/img-6.jfif");
-    background-color: brown;
-}
- 
-.salmon{
-    background-image: url("");
-    background-color:salmon;
-}
- 
-.silver{
-    background-image: url("");
-    background-color: silver;
-}
- 
-.orange{
-    background-image: url("");
-    background-color: orange;
-}
- 
-.container.test{
 
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 colunas de tamanho igual */
-    grid-auto-flow: row; /* Os itens vão preencher as colunas primeiro e depois seguir para a próxima linha */
-    gap: 10px; /* Espaçamento entre os itens */
-    padding: 10px;
-    width: 100%;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100vw; /* Ocupa toda a largura da tela */
+  background: linear-gradient(
+    90deg,
+    #ff5733,
+    #33c1ff,
+    #75ff33,
+    #ff33f6
+  ); /* Degradê de laranja, azul, verde, rosa */
 }
 
-div{
-    width: 300px;
-    height: 150px;
-
-}
-.abacate{ 
-    background-color: #77dd77;
-    grid-column-start: 1;
-    background-repeat: no-repeat;
-
-}
-
-.uva{
-   
-    background-color: #800080;
-    
-
-}
-
-.morango{ 
-    background-color: #Fb83a6;
+.navbar a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  color: #fff;
+  text-decoration: none; /* Tira o sublinhado */
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px; /* Espaçamento entre os quadrados */
+  transition: background-color 0.3s ease; /* Transição suave de 0.3 segundos */
 }
 
 
-.banana{
-    background-color: #FFD700;
+/* Cores para os quadrados */
+.quadrado01 {
+  background-color: #ff5733;
+} /* Laranja */
+.quadrado02 {
+  background-color: #33c1ff;
+} /* Azul */
+.quadrado03 {
+  background-color: #75ff33;
+} /* Verde */
+.quadrado04 {
+  background-color: #ff33f6;
+} /* Rosa */
+
+
+.navbar a:hover {
+    background-color: rgba(
+      255,
+      255,
+      255,
+      0.2
+    ); /* */
+  }
+
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  justify-content: center;
 }
 
-.acerola{  background-color: orangered;
-
+div {
+  width: 300px;
+  height: 150px;
 }
 
-.abacaxi{  background-color: #FFFF00;
-
+.red {
+  background-image: url("/img/img-1.jfif");
+  background-color: red;
+  grid-column-start: 1;
+  background-repeat: no-repeat;
 }
 
-.cereja{  background-color: #FF0000;
-
+.blue {
+  background-image: url("/img/img-2.jfif");
+  background-color: blue;
 }
 
-.maca{ background-color: #84f100;
-
+.green {
+  background-image: url("/img/img-3.jfif");
+  background-color: green;
 }
 
-.pera{ background-color: #7CFC00;
-
+.yellow {
+  background-image: url("/img/img-4.jfif");
+  background-color: yellow;
 }
 
+.pink {
+  background-image: url("/img/img-5.jfif");
+  background-color: pink;
+}
+
+.brown {
+  background-image: url("/img/img-6.jfif");
+  background-color: brown;
+}
+
+.salmon {
+  background-image: url("");
+  background-color: salmon;
+}
+
+.silver {
+  background-image: url("");
+  background-color: silver;
+}
+
+.orange {
+  background-image: url("");
+  background-color: orange;
+}
+
+.container.test {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas de tamanho igual */
+  grid-auto-flow: row; /* Os itens vão preencher as colunas primeiro e depois seguir para a próxima linha */
+  gap: 50px; /* Espaçamento entre os itens */
+  padding: 10px;
+  width: 100%;
+}
+
+div {
+  width: 300px;
+  height: 150px;
+}
+.abacate {
+  background-color: #77dd77;
+  grid-column-start: 1;
+  background-repeat: no-repeat;
+}
+
+.uva {
+  background-color: #800080;
+  background-image: url("/img/uvaFruta_compressed.jfif");
+  width: 300px; /* A largura da imagem será fixada em 300 pixels */
+  height: 150px; /* A altura da imagem será fixada em 200 pixels */
+}
+
+.morango {
+  background-color: #fb83a6;
+}
+
+.banana {
+  background-color: #ffd700;
+}
+
+.acerola {
+  background-color: orangered;
+}
+
+.abacaxi {
+  background-color: #ffff00;
+}
+
+.cereja {
+  background-color: #ff0000;
+}
+
+.maca {
+  background-color: #84f100;
+}
+
+.pera {
+  background-color: #7cfc00;
+}

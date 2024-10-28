@@ -63,3 +63,41 @@ gap: 10px;
 padding: 10px;
 
 ```
+## Uma boa ferramenta que encontrei :
+
+https://www.origamid.com/projetos/css-grid-layout-guia-completo/
+
+
+
+## Sobre
+
+Este projeto utiliza CSS para estilizar elementos, incluindo o uso de cores RGBA.
+
+## O que é RGBA?
+
+**RGBA** é uma forma de especificar cores em CSS que inclui quatro componentes:
+
+1. **Red (R)**: O valor de vermelho, que pode variar de 0 a 255.
+2. **Green (G)**: O valor de verde, que também varia de 0 a 255.
+3. **Blue (B)**: O valor de azul, com a mesma faixa de 0 a 255.
+4. **Alpha (A)**: O valor de opacidade/transparência, que varia de 0 a 1:
+   - **0** significa completamente transparente.
+   - **1** significa completamente opaco.
+
+### Exemplo de Uso
+
+```css
+background-color: rgba(255, 0, 0, 0.5); /* Vermelho semi-transparente */
+```
+## Exemplo de Uso
+
+Neste exemplo:
+
+- **255** representa a quantidade máxima de vermelho.
+- **0** significa que não há verde.
+- **0** significa que não há azul.
+- **0.5** indica que a cor é semi-transparente (50% opaca).
+
+### Vantagens do RGBA
+- **Transparência**: Permite criar efeitos de sobreposição, possibilitando que as cores de fundo ou os elementos abaixo sejam vistos através da cor especificada.
+- **Flexibilidade**: Você pode criar uma ampla gama de efeitos visuais ajustando a opacidade da cor.
