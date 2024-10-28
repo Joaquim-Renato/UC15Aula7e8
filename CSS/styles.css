@@ -1,7 +1,9 @@
 .container-nav {
   display: flex;
   align-items: flex-start;
- 
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 .navbar {
@@ -11,11 +13,11 @@
   width: 100vw; /* Ocupa toda a largura da tela */
   background: linear-gradient(
     90deg,
-    #ff5733,
-    #33c1ff,
+    #ff33f6,
     #75ff33,
-    #ff33f6
-  ); /* Degradê de laranja, azul, verde, rosa */
+    #33c1ff,
+    #ff5733
+  ); /* Degradê de  rosa, verde, azul, laranja, */
 }
 
 .navbar a {
@@ -32,7 +34,6 @@
   transition: background-color 0.3s ease; /* Transição suave de 0.3 segundos */
 }
 
-
 /* Cores para os quadrados */
 .quadrado01 {
   background-color: #ff5733;
@@ -47,16 +48,14 @@
   background-color: #ff33f6;
 } /* Rosa */
 
-
 .navbar a:hover {
-    background-color: rgba(
-      255,
-      255,
-      255,
-      0.2
-    ); /* */
-  }
-
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.2
+  ); /* + infos sobre RGBA no README.MD */
+}
 
 .container {
   width: 100%;
